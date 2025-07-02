@@ -12,92 +12,71 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/496a8d2725.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="noise-styling.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Allura&family=New+Rocker&family=Permanent+Marker&display=swap" rel="stylesheet">
 </head>
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light bg-color fixed-top">
-        <a class="navbar-brand" href="#Home"><span class="permanent-marker-regular" style="font-weight: bold;"><Span class="colour">J</Span>ayanth</span></a>
-        <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon
-          "></span>
-        </button>
-        <div class="collapse navbar-collapse mr-3" id="navbarNav">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="#aboutMe">About</a>
-              </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Project</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contact</a>
-              </li>
-          </ul>
-        </div>
-      </nav>
-        <div id="Home" class="bg-container d-flex flex-column justify-content-center text-center m-auto"> 
-            <div class="pfp-container mt-5 d-block d-md-none ">
-                <img src="images/pfp(2).jpg" class="w-50 pfp"/>
-            </div>
-            <div class="d-flex flex-row justify-content-center mt-5 pr-md-5 ">
-                <div class="pfp-container-md d-none d-md-block">
-                    <img src="images/pfp(2).jpg" class="w-50 pfp"/>
-                </div>
-                <div class="d-flex flex-column justify-content-center pr-md-5">
-                <div class="pf-details">
-                    <p class="greeting mb-1">Hello, I'm</p>
-                    <h3>Devadula Venkata Jayanth</h3>
-                    <h4>Frontend Developer</h4>
-                </div>
-                <div class="d-flex flex-row justify-content-center mt-3">
-                    <button class="get-Resume mr-3 btn">Download CV</button>
-                    <button class="contact_info-btn btn">Contact info</button>
-                </div>
-                <div class="d-flex flex-row justify-content-center mt-3">
-                        <a href="https://www.linkedin.com/in/devadula-venkata-jayanth" target="_blank"><i class="fa fa-linkedin icon-container mr-4"></i></a>
-                        <a href="https://github.com/Jayanth-1711" target="_blank"><i class="fa fa-github icon-container mr-4"></i></a>
-                        <a href="" target="_blank"><i class="fa fa-facebook icon-container"></i></a>
-                </div>
-            </div>
-         </div>
-    </div>
-    <hr/>
-    <div id = "aboutMe" class="about-me-page column d-flex flex-column justify-content-center mt-5">
-      <div class="row">
-      <h1 class="abt-me text-center">About<span class="colour col-12">Me</span></h1>
-      <p class="text-center text-secondary col-12">Know More</p>
-      <hr style="width: px;" class="colour hline col-2"/>
-      <p class="mt-4 p-4 colour col-12 text-center">
-Fellow at NxtWave’s CCBP 4.0 Academy, skilled in full-stack web development with Python and front-end tech. Passionate about building real-world projects, learning new tech, and making a meaningful impact.
-      </p>
-
-          <div class="colour text-center col-6 col-md-6">
-            <div class="d-block mt-4">
-                <p class="para  d-inline">Name</p>
-                <div class="d-block  mt-4">
-                    <p class="para  d-inline">Age</p>
-                </div>
-                <div class="d-block mt-4">
-                    <p class="para  d-inline">Gmail</p>
-                </div>
-                <div class="d-block mt-4">
-                  <p class="para  d-inline">Phone</p>
+<body> 
+  <div class="noise">
+            <nav class="navbar navbar-expand-lg navbar-bg-color ">
+              <a class="navbar-brand" href="#Home">
+                <span class="font-weight-bold">JAYANTH</span>
+              </a>
+              <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="images/burger.png" alt="" class="burger-icon">
+              </button>
+              <div class="collapse navbar-collapse dropdown-box " id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline" href="#aboutMe">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline" href="#">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline" href="#">Project</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link hover-underline" href="#">Contact</a>
+                  </li>
+                </ul>
               </div>
-            </div>
-        </div>
-        <div class="colour text-md-left col-6 col-md-6 text-start">
-            <p class="para mt-4">Devadula-venkata-jayanth</p>
-            <p class="para mt-4">20</p>
-            <p class="para mt-4">venkatajayanth1711@gmail.com</p>
-            <p class="para mt-4">+91-9912806230</p>
-        </div>
-          </div>
-        </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+            </nav>
+              <div class="bg-container container-fluid d-flex justify-content-center  align-items-center ">          
+                <div class="row d-flex flex-column flex-md-row  mx-auto ms-lg-5">
+                  <div class="col-12 col-md-6">
+                <h3 class="greetings">Hey,I'm  <span class="">Jayanth  </span><span class="wave">👋</span></h3>
+                <h1 class="subtitle"><span class="txt-color">Front</span>end Developer</h1>
+                <p class="subs">I'm a developer who enjoys crafting modern UI's,solving real world problems,and learning new things in tech.</p>
+                <div class="d-flex flex-row justify-content-start mt-1 ml-1 i-container ">
+                  <i class="fa fa-html5 icon-container mr-3"></i>
+                  <i class="fa-brands fa-css3-alt icon-container mr-3"></i>
+                  <i class="fa-brands fa-bootstrap icon-container mr-3"></i>  
+                  <i class="fa-brands fa-python icon-container"></i>
+                </div>
+                <div class="d-flex flex-row  justify-content-start mt-4  mb-2  btn-container">
+                  <button class="btn resume-btn">View Resume</button>
+                  <button class="btn contact-btn ml-4">Contact Me</button>
+                </div>
+                <!-- Profile Image Mobile -->
+                 <div class="col-12 d-block d-md-none ">
+                <div class="pfp-container text-center  mt-3">
+                 <img src="images/pfp-bg-9900ff.png" class="pfp" alt="Profile Image"/>
+                </div>
+              </div>
+              </div>
+               <!-- Profile Image Desktop -->
+                <div class="col-md-6 d-none d-md-flex justify-content-center  align-items-center text-center">
+                  <div class="pfp-container-md">
+                    <img src="images/pfp-bg-9900ff.png" class="pfp-md" alt="Profile Image"/>
+                  </div>
+                </div>
+              </div> 
+              </div>          
+      </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
 </body>
 </html>
