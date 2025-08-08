@@ -1,0 +1,256 @@
+:root{
+    --clr-purple:#9900ff;
+}
+
+.navbar-bg-color {
+  background-color: transparent;
+}
+.navbar-nav{
+  border-style: none;
+}
+/* Hover underline animation */
+.hover-underline {
+  position: relative;
+  display: inline-block;
+  transition: color 0.3s;
+}
+
+.hover-underline::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0%;
+  background-color: #9900ff;
+  transition: width 0.3s ease-in-out;
+}
+
+.hover-underline:hover::after {
+  width: 100%;
+}
+/* Mobile dropdown box style */
+@media (max-width: 991.98px) {
+  .dropdown-box {
+    background-color: #ffffff;
+    padding: 1rem;  
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    margin-top: 0.5rem;
+  }
+
+  .dropdown-box .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+.navbar-bg-color{
+    border-style: solid;
+    border-color: black;
+    border-width: 1cm;
+    border-top-width: 0cm;
+    border-left-width: 0cm;
+    border-right-width: 0cm;
+    border-bottom-width: 2.5px;
+    background-color:transparent;  
+}
+.burger{
+   border-style: none;
+   outline: none;
+}
+.permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #9900ff;
+  }
+.navbar button:focus {
+    outline: none;
+    box-shadow: none;
+  }
+  .subtitle {
+    font-size: 70px;
+    margin-top: 10px;
+    color: ;
+    font-weight: 900;
+  }
+  .subs{
+    color: #666;
+    font-size: 20px;
+  }
+  .scroll-down {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    animation: bounce 2s infinite;
+    color: #9900ff;
+  }
+.resume-btn {
+    background-color: #9900ff !important;
+    color: white !important;
+    border: none !important;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+.contact-btn{
+  border-style: solid;
+  border-color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  width: 150px;
+  border-radius: 6px;
+}
+  .pfp-md {
+    width:50%;
+    border-radius: 50%;
+    
+  }
+  
+  .pfp {
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  @media (min-width: 768px) {
+    .w-60 {
+      width: 80%; /* Adjust as needed */
+    }
+  }
+  .contact-btn {
+    background-color: transparent;
+    color: black!important;
+    border-style: solid;
+    border-color: black;
+    padding: 10px 20px;
+    font-size: 16px;
+    width: 150px;
+    border-radius: 6px;
+    transition: background-color 0.3s;
+  }
+.contact-btn:hover{
+    border-color: black !important;
+}
+.burger-icon{
+    width:30px;
+}
+.bg-container{
+    height: 90vh; 
+    color: black;
+    font-size: 100px;
+}
+.txt-color{
+    color: #9900ff;
+}
+.icon-container{
+    color: black;
+    font-size: 25px;
+}
+.pfp-container-md {
+  background-size: cover;
+}
+
+
+
+.test{
+  border-style: solid;
+  border-color: black;
+  width: auto;
+}
+
+
+
+
+
+/*about*/
+.about-section {
+  position: relative;
+  text-align: center;
+  padding: 10px;
+  overflow: hidden;
+}
+.bg-text {
+  font-size: 70px;
+  font-weight: 900;
+  color: rgba(0, 0, 0, 0.3);
+}
+.fg-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 22px;
+  color:black;
+  font-weight: bold;
+  z-index: 2;
+  letter-spacing: 2px;
+}
+.purple {
+  color: var(--clr-purple);
+  font-weight: 750;
+}
+.about-me-text {
+  font-size: 18px;
+  font-weight: 500;
+}
+.interests-container {
+  border-color: black;
+  border-style: solid;
+  height: 80px;
+  width: 80px;
+  border-radius: 36%;
+  padding-top: 15px;
+  text-align: center;
+}
+.icon-interests {
+  font-size: 25px;
+}
+.edu-card{
+    width: 30%;
+}
+
+.edu-img{
+    width: 100px;
+}
+
+.edu-container {
+  gap: 15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.edu-card {
+  flex: 1 1 220px;
+  max-width: 260px;
+  min-width: 180px;
+  border-radius: 18px;
+  margin: 0;
+  padding: 1rem 0.5rem;
+  display: flex;
+  flex-direction: column;
+  border-color: black;
+  border-style: solid;
+  align-items: center;
+}
+
+.edu-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  margin-bottom: 0.5rem;
+}
+.edu-para{
+    font-weight: 200px;
+}
+
+.edu-title{
+    color:black;
+}

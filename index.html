@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/496a8d2725.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="noise-styling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Allura&family=New+Rocker&family=Permanent+Marker&display=swap" rel="stylesheet" />
+  </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-bg-color fixed-top blur">
+      <a class="navbar-brand" href="#Home">
+        JAYANTH
+      </a>
+      <button class="navbar-toggler burger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <img src="images/burger.png" alt="" class="burger-icon" />
+      </button>
+      <div class="collapse navbar-collapse dropdown-box blur" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link hover-underline" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline" href="about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline" href="#section1">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link hover-underline" href="#footer">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    </header>
+    <div class="noise" id="Home">
+      <div id="" class="landing-page-container">
+        <div class="flex-landing-page ">
+          <div class="content "> 
+            <h3 class="greetings">Hey,I'm <span class="">Jayanth</span><span class="wave">👋</span></h3>
+            <h1 class="subtitle"><span class="txt-color">Front</span>end Developer</h1>
+            <p class="subs">I'm a developer who enjoys crafting modern UI's,solving real world problems,and learning new things in tech.</p>
+            <div class="mb-3">
+              <i class="fa fa-html5 icon-container mr-3"></i>
+              <i class="fa-brands fa-css3-alt icon-container mr-3"></i>
+              <i class="fa-brands fa-bootstrap icon-container mr-3"></i>
+              <i class="fa-brands fa-python icon-container mr-3"></i>
+              <i class="fas fa-database icon-container"></i>
+            </div>
+            <div class="buttons">
+              <a class="btn resume-btn">View Resume</a>
+              <a class="btn contact-btn ml-4" href="#footer">Contact Me</a>
+            </div>
+             
+            </div>
+             <div class="pfp-container mt-3 d-md-none ">
+                <img src="images/pfp-bg-9900ff.png" class="pfp mt-5" alt="Profile Image" />
+              </div>
+            <div class="pfp-container-md test d-none d-md-flex  justify-content-center text-center">
+              <img src="images/pfp-bg-9900ff.png" class="pfp-md test" alt="Profile Image" />
+            </div>
+        </div>
+      </div>
+    </div>
+    
+     <div id="aboutMe" class="about-me text-center container p-md-5 p-4">
+  <h1>About Me</h1>
+  <p>
+    Hello, I'm <span style="color:black; font-weight: bold;">Devadula Venkata Jayanth</span>,
+    passionate about building smart and scalable web & mobile applications.
+    I explore new technologies to refine my skills.
+    Focused on continuous learning, I aim to transition into the IT industry by 2027 and eventually move towards AI and data science.
+  </p>
+
+  <!-- Buttons -->
+  <div class="d-flex flex-wrap justify-content-center gap-3 mt-3">
+    <button class="btn resume-btn">View Resume</button>
+    <a class="btn contact-btn" href="about.html">Know More</a>
+  </div>
+
+  <!-- Cards Grid -->
+  <div id="aboutCards" class="row mt-5">
+    <!-- Card 1 -->
+    <div class="col-12 col-md-4 mb-2">
+      <div class="about-card h-100">
+        <div class="icon-card">
+          <i class="fas fa-code about-icon"></i>
+          <h3 class="ms-3">3</h3>
+        </div>
+        <h5>Total Projects</h5>
+        <div class="text-center mt-2">
+          <p>Innovative web & mobile solutions crafted</p>   
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 2 -->
+    <div class="col-12 col-md-4 mb-2">
+      <div class="about-card h-100 text-center">
+        <div class="icon-card">
+          <i class="fas fa-award about-icon"></i>
+          <h3 class="ms-3">3</h3>
+        </div>
+        <h5>Certificates</h5>
+        <div class=" text-center mt-2">
+          <p>Professional skills validated</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Card 3 -->
+    <div class="col-12 col-md-4 mb-2 ">
+      <div class="about-card h-100">
+        <div class="icon-card">
+          <i class="fas fa-graduation-cap about-icon"></i>
+          <h3 class="ms-3">1</h3>
+        </div>
+        <h5>Experience</h5>
+        <div class="text-center mt-2">
+          <p>Continuous learning journey</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+ <div class="portfolio  mt-3 mb-5 ">
+    <div class="showcase text-center p-3">
+        <h1 class="portfolio-heading">Portfolio Showcase</h1>
+        <p>Explore my journey through projects, certifications, and technical expertise.<br>
+           Each section represents a milestone in my continuous learning path.
+        </p>
+    </div>
+        <div id="navigation">
+          <div class="container">
+            <div class="navigation-flex mt-5">
+              <div id="navProject" class="nav-card nav-select text-center test" onclick="projectEvent();display('section1');">
+                <i class="fas fa-code nav-icon mt-3"></i>
+                <p>Projects</p>
+              </div>
+              <div id="navCertificate" class="nav-card nav2 text-center test" onclick="certificateEvent();display('section3');">
+                <i class="fas fa-award nav-icon mt-3"></i>
+                <p class="">Certificates</p>
+              </div>
+              <div id="navSkill" class="nav-card nav3 text-center test" onclick="skillsEvent();display('section2');">
+                <i class="fas fa-layer-group nav-icon mt-3"></i>
+                <p>Skills</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="section1">
+          <div class="container">
+            <div class="row project-grid justify-content-center ">
+              <h2 class="skill-heading mt-4">My Projects</h2>
+              <div class="project-card col-8 col-lg-3 col-md-6 ">
+                <div class="project-img">
+                  <img src="images/food_munch_resized-removebg-preview.jpg " alt="Project Thumbnail" class="project-pfp mt-3" />
+                </div>
+                <div class="card-content">
+                  <h4>Food Munch</h4>
+                  <p>A responsive food delivery landing page built with HTML, CSS, and Bootstrap.</p>
+                  <a href="https://jayanth-1711.github.io/jayanth-foodmunch/" target="_blank" class="project-link">View Project</a>
+                </div>
+              </div>
+
+              <div class="project-card col-8   col-lg-3 col-md-6 ">
+                <div class="project-img">
+                  <img src="images/todoList_resized.jpg" alt="Project Thumbnail" class="project-pfp mt-3" />
+                </div>
+                <div class="card-content">
+                  <h4>TodoList</h4>
+                  <p>A clean, responsive app to add and manage daily tasks with ease.</p>
+                  <a href="https://jayanth-1711.github.io/todoList/" target="_blank" class="project-link">View Project</a>
+                </div>
+              </div>
+
+              <div class="project-card col-8  col-lg-3 col-md-6">
+                <div class="project-img">
+                  <img src="images/wikipedia.jpg" alt="Project Thumbnail" class="project-pfp mt-3" />
+                </div>
+                <div class="card-content">
+                  <h4>Wikipedia Search</h4>
+                  <p>A clean and lightweight app to search Wikipedia articles instantly.  </p>
+                  <a href="https://jayanth-1711.github.io/Wikipedia-Search-/" target="_blank" class="project-link">View Project</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="section2" class="skills-section  container">
+          <div class="row skills-grid justify-content-center">
+            <h2 class="skill-heading  mt-4">Skills & Tools</h2>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fab fa-html5 skill-icon"></i>
+              <h3 class="skill-title mt-1">HTML</h3>
+              <p class="skill-para">I use HTML to structure web pages clearly, following best practices for accessibility and clean code.</p>
+            </div>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fab fa-css3-alt skill-icon"></i>
+              <h3 class="skill-title mt-1">CSS</h3>
+              <p class="skill-para">I use CSS to style web pages with consistent colors, spacing, and typography that match the overall design.</p>
+            </div>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fab fa-js skill-icon"></i>
+              <h3 class="skill-title mt-1">JavaScript</h3>
+              <p class="skill-para">I use JavaScript to add interactivity and logic to websites.</p>
+            </div>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fab fa-bootstrap skill-icon"></i>
+              <h3 class="skill-title mt-1">Bootstrap</h3>
+              <p class="skill-para">I build responsive UIs quickly with Bootstrap’s grid and components.</p>
+            </div>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fas fa-code skill-icon"></i>
+              <h3 class="skill-title mt-1">VS Code</h3>
+              <p class="skill-para">My main editor, customized with extensions for efficient coding.</p>
+            </div>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fab fa-python skill-icon"></i>
+              <h3 class="skill-title mt-1">Python</h3>
+              <p class="skill-para">I use Python for scripting, logic building, and solving problems.</p>
+            </div>
+
+            <div class="skill-card col-md-3 mr-md-4 p-3">
+              <i class="fas fa-database skill-icon"></i>
+              <h3 class="skill-title mt-1">Sql</h3>
+              <p class="skill-para">I use sql/sqlite for Datebase management.</p>
+            </div>
+          </div>
+        </div>
+
+        <div id="section3" class="certificate-container container">
+          <h3 class="skill-heading mt-4">My certificates</h3>
+          <div class="certificates-images">
+            <div class="image"><img src="images/static web certificate.png" alt=""></div>
+            <div class="image"><img src="images/responsive web certificate.png" alt=""></div>
+            <div class="image"><img src="images/Python.jpg" alt=""></div>
+            <div class="image"><img src="images/js cerificate.png" alt=""></div>
+            <div class="image"><img src="images/Sqlite.jpg" alt=""></div>
+          </div>
+        </div>
+    </div>
+    <div id="footer" class="footer d-flex flex-column justify-content-center">
+         <div class="container footer-warp">
+            <div class="links-warp">
+              <div class=""><i class="fa-solid fa-arrow-right-long footer-icon"></i><a class="link" href="mailto:venkatajayanth1711@gmail.com">Email</a></div>
+              <div class=""><i class="fa-solid fa-arrow-right-long footer-icon"></i><a class="link" href="https://www.linkedin.com/in/devadula-venkata-jayanth" target="_blank">linkedIn</a></div>
+              <div class=""><i class="fa-solid fa-arrow-right-long footer-icon"></i><a class="link" href="https://github.com/Jayanth-1711" target="_blank">Github</a></div>
+              <div class=""><i class="fa-solid fa-arrow-right-long footer-icon"></i><a class="link" >Resume</a></div>
+            </div>
+            <div class="update">
+                <p>Updated 7/25</p>
+                <p>©Jayanth_2025</p>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
